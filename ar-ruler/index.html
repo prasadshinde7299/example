@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AR Ruler</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="ui">
+      <div class="row">
+        <div id="distance">Tap to place two points</div>
+      </div>
+      <div class="row controls">
+        <button id="resetBtn" title="Clear points">Reset</button>
+        <button id="unitBtn" title="Toggle units">Units: m</button>
+      </div>
+      <div class="row hint">Move your device to find a surface, then tap.</div>
+    </div>
+
+    <noscript>
+      <div class="noscript">This app requires JavaScript.</div>
+    </noscript>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+  </html>
+
