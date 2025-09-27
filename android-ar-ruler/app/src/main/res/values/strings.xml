@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AR Ruler</string>
+    <string name="distance_placeholder">Tap two points</string>
+    <string name="reset">Reset</string>
+    <string name="units">Units: %1$s</string>
+    <string name="permission_camera_rationale">Camera permission is required for AR.</string>
+</resources>
+
